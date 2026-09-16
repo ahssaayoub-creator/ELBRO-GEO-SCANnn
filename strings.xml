@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ELBRO GEO SCAN</string>
+
+    <!-- Navigation labels -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_new_analysis">Nouvelle analyse</string>
+    <string name="nav_calibration">Calibration</string>
+    <string name="nav_scan">Scan terrain</string>
+    <string name="nav_map">Carte</string>
+    <string name="nav_results">Résultats</string>
+    <string name="nav_history">Historique</string>
+    <string name="nav_details">Détails d\'une analyse</string>
+    <string name="nav_settings">Paramètres</string>
+    <string name="nav_about">À propos</string>
+
+    <!-- Sensors -->
+    <string name="magnetometer_unavailable">Magnétomètre non disponible sur cet appareil.</string>
+    <string name="gps_unavailable">GPS indisponible.</string>
+    <string name="gps_low_accuracy">Précision GPS faible.</string>
+    <string name="permission_denied">Permission de localisation refusée. Veuillez l\'activer dans les paramètres pour utiliser le scan.</string>
+
+    <!-- Anomaly levels -->
+    <string name="anomaly_normal">NORMAL</string>
+    <string name="anomaly_low">FAIBLE ANOMALIE</string>
+    <string name="anomaly_medium">ANOMALIE MOYENNE</string>
+    <string name="anomaly_high">ANOMALIE ÉLEVÉE</string>
+    <string name="anomaly_detected_label">Anomalie magnétique détectée</string>
+
+    <!-- Scientific disclaimer (must be shown in the app, not just README) -->
+    <string name="scientific_disclaimer">ELBRO GEO SCAN mesure les variations du champ magnétique à l\'aide du magnétomètre du smartphone. Une anomalie magnétique ne signifie pas nécessairement la présence d\'un métal. Les résultats peuvent être influencés par le fer, l\'acier, les câbles, les véhicules, les structures enterrées, certaines roches et l\'environnement. Cette application ne permet pas d\'identifier directement l\'or ou un métal spécifique et ne remplace pas un détecteur professionnel ou une étude géophysique.</string>
+
+    <string name="export_csv">Exporter en CSV</string>
+    <string name="export_json">Exporter en JSON</string>
+</resources>
